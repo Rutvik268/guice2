@@ -8,7 +8,8 @@ public class DrawSquare implements DrawShape {
 	
 	private String color;
 	private Integer edge;
-	
+
+	//google guice 5.1.0
 	@Inject
 	public DrawSquare(@colorValue String color, @EdgeValue Integer edge) {
 		super();
